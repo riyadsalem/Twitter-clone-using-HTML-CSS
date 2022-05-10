@@ -214,3 +214,56 @@ main {
   font-weight: 400;
   font-size: 1.5rem;
 }
+
+.feed-tweet {
+  display: flex;
+  width: 100%;
+  min-height: 100px;
+  padding: 12px 16px 0 16px;
+  border-top: 1px solid rgb(47, 51, 54);
+  cursor: pointer;
+}
+
+.feed-tweet-details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 12px;
+}
+
+.feed-tweet i {
+  color: rgb(110, 118, 125);
+  font-size: 2rem;
+}
+
+.tweeter-details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-size: 1.5rem;
+}
+
+.tweeter-details a {
+  font-weight: 700;
+}
+
+.tweeter-details span {
+  color: rgb(110, 118, 125);
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-left: 3px;
+}
+
+.tweet-text {
+  color: white;
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+.tweet-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 15px 0;
+  padding-right: 50px;
+}
